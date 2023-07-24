@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
+    "production": "cross-env NODE_ENV=production npm start",
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
@@ -14,6 +15,7 @@
     "@strapi/plugin-users-permissions": "4.11.5",
     "@strapi/provider-upload-cloudinary": "^4.11.5",
     "@strapi/strapi": "4.11.5",
+    "cross-env": "^7.0.3",
     "mysql": "2.18.1",
     "strapi-google-auth": "^0.1.2"
   },
