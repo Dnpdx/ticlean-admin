@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "zonas",
+  "info": {
+    "singularName": "zona",
+    "pluralName": "zonas",
+    "displayName": "Zona",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "clave": {
+      "type": "string",
+      "required": true
+    },
+    "direccion": {
+      "type": "string",
+      "required": true
+    },
+    "estado": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "string"
+    }
+  }
+}

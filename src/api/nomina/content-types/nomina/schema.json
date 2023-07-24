@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nominas",
+  "info": {
+    "singularName": "nomina",
+    "pluralName": "nominas",
+    "displayName": "Nomina"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "rfc": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "documento": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

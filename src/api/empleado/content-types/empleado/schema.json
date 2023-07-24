@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "empleados",
+  "info": {
+    "singularName": "empleado",
+    "pluralName": "empleados",
+    "displayName": "Empleado",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "rfc": {
+      "type": "string",
+      "required": true
+    },
+    "correo": {
+      "type": "email"
+    },
+    "numero": {
+      "type": "string"
+    }
+  }
+}
